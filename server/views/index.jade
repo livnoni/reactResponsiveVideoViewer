@@ -1,0 +1,10 @@
+  extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  ul
+    li
+      h3 APP_PATH/videos = get all the videos
+    li
+      h3 APP_PATH/videos/:filter = get  only the videos with the required filter (source) available filters: youtube, facebook, url

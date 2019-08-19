@@ -7,6 +7,9 @@
     .video_info h3 {
         font-size: 1.0em;
     }
+    .video_wrapper {
+        min-width: calc(100vw - 20px);
+    }
 }
 
 /*desktop*/

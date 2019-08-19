@@ -25,4 +25,4 @@ Right now the server runs on the localhost with port 8000: [http://localhost:800
 - The Application is responsive to mobile and desktop view.
 - The Server use a very simple GraphQL queries in order to returns the relevant videos to the client.
 - Both folders (client and server) contains tests (client- integration test using puppeteer, server- uni tests) you can run it by execute: `$ npm run test` on the relevant directory.<br/>
-Note: Before run the test, make sure server is up!
+<br/><br/>Note: Before run the test, make sure server is up!

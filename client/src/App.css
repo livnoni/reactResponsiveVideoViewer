@@ -1,0 +1,35 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+}
+
+
+.filter_container {
+  display: flex;
+  align-items: baseline;
+}
+
+.filter_container h3{
+  margin-right: 5px;
+}
+
+.video_wrapper{
+  background-color: #9689ab;
+  margin-bottom: 10px;
+}
+
+.video_info {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0px 10px 10px 10px
+}
+/*for mobiles:*/
+@media (max-width: 768px) {
+  .filter_container h3 {
+    font-size: 1.0em;
+  }
+}

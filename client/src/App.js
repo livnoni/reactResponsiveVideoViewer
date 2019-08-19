@@ -46,8 +46,8 @@ class App extends Component {
     }
 
     renderVideos() {
-        if (this.state.loading) return (<h2>Loading...</h2>); //todo: add className + styles
-        if (this.state.error) return (<h2>Error!</h2>); //todo: add className + styles
+        if (this.state.loading) return (<h2>Loading... It may takes a few seconds, i am using free heroku server :)</h2>);
+        if (this.state.error) return (<h2>Error!</h2>);
 
         return (this.state.videos.length > 0 ? <VideoList videos={this.state.videos}/> : <h3>No Videos Available</h3>);
     }

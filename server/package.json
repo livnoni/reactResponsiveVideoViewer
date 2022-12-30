@@ -20,6 +20,6 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "deep-equal-in-any-order": "^1.0.18",
-    "mocha": "^6.2.0"
+    "mocha": "^10.2.0"
   }
 }
